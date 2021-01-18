@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieRating.Context\MovieRatings.Context.csproj" />
+    <ProjectReference Include="..\MovieRatings.Common\MovieRatings.Common.csproj" />
+  </ItemGroup>
+
+</Project>
